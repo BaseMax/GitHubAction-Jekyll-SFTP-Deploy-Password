@@ -54,4 +54,14 @@ jobs:
           pasive: true
 ```
 
+### Read more
+
+- https://pages.github.com/versions/
+- https://www.jessesquires.com/blog/2021/08/23/caching-bundler-on-github-actions/
+- https://docs.knapsackpro.com/2021/how-to-load-ruby-gems-from-cache-on-github-actions
+- https://github.com/marketplace/actions/jekyll-actions
+- https://github.com/actions/setup-ruby
+- https://jekyllrb.com/docs/continuous-integration/github-actions/
+- https://github.com/marketplace/actions/jekyll-actions
+
 © Copyright Max Base, 2022
