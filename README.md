@@ -2,9 +2,15 @@
 
 This is a guide and tempalte for deploying a Jekyll site to a SFTP server with GitHub Actions. Usually, you can easily deploy your jekyll application in GitHub Pages, but sometimes you need to deploy your site to your own server by FTP/SFTP. This guide will help you to do that.
 
-### GitHub Actions
+## GitHub Actions
 
 GitHub Actions is a service that allows you to run your own scripts on GitHub's infrastructure. You can use it to automate tasks like building and testing your code, or deploying your site to a server.
+
+GitHub Actions are great to use in projects. Happy coding ^_^
+
+### Example
+
+Create `.github/workflows/deploy.yml` file.
 
 You can see an example workflow in the following:
 
