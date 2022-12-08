@@ -1,6 +1,12 @@
 # GitHub Actions: Deploy Jekyll to SFTP with password
 
+This is a guide and tempalte for deploying a Jekyll site to a SFTP server with GitHub Actions. Usually, you can easily deploy your jekyll application in GitHub Pages, but sometimes you need to deploy your site to your own server by FTP/SFTP. This guide will help you to do that.
+
 ### GitHub Actions
+
+GitHub Actions is a service that allows you to run your own scripts on GitHub's infrastructure. You can use it to automate tasks like building and testing your code, or deploying your site to a server.
+
+You can see an example workflow in the following:
 
 ```yml
 on: [push]
@@ -23,12 +29,15 @@ jobs:
           RAILS_ENV: test
         run: |
           bundle install --jobs 4 --retry 3
+
       - name: 🔨 Build Project
         run: |
           bundle exec jekyll build
+
       - name: List output files
         run: |
           find ./_site/ -print
+
       - name: FTP Deployer
         uses: sand4rt/ftp-deployer@v1.4
         with:
@@ -44,3 +53,5 @@ jobs:
           exclude: '[".htaccess", ".github/**", ".git/**", "*.env"]'
           pasive: true
 ```
+
+© Copyright Max Base, 2022
