@@ -60,6 +60,17 @@ jobs:
           pasive: true
 ```
 
+Note that you need to add your secrets to the repository settings. You need to define the following secrets:
+
+- SERVER_HOST
+- SERVER_USERNAME
+- SERVER_PASSWORD
+- SERVER_PATH
+
+### Show case
+
+I am using this workflow in my personal website, because I want to deploy my site to my own server by FTP/SFTP. You can see the source code of my website in the following: https://github.com/BaseMax/Max
+
 ### Read more
 
 - https://pages.github.com/versions/
