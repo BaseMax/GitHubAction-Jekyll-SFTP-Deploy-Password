@@ -1,4 +1,4 @@
-# GitHub Action Jekyll Deploy SFTP With Password
+# GitHub Actions: Deploy Jekyll to SFTP with password
 
 ### GitHub Actions
 
