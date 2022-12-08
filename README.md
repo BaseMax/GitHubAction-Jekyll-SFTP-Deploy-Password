@@ -8,6 +8,10 @@ GitHub Actions is a service that allows you to run your own scripts on GitHub's 
 
 GitHub Actions are great to use in projects. Happy coding ^_^
 
+### Why this one and GitHub Actions?
+
+It took me a few hours to prepare and test this configuration, I'm happy to share this for free to save others time.
+
 ### Example
 
 Create `.github/workflows/deploy.yml` file.
